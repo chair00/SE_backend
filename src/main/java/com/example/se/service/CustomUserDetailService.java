@@ -10,6 +10,8 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 @Service
 public class CustomUserDetailService implements UserDetailsService {
+    //SecurityContextHodelr이랑 연결돼있어서 여기서 사용자 찾기 진행하는듯?
+    //UserService는 로그인 회원가입만 진행하고..
 
     private final UserRepository userRepository;
 
